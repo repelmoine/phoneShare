@@ -44,8 +44,7 @@ export class HomePage {
   // If location permission is denied, you'll end up here
   scanError(error) {
     this.setStatus('Error ' + error);
-    let toast = this.toastCtrl.show('Error scanning for Bluetooth low energy devices', 'long', 'middle'
-    );
+    //let toast = this.toastCtrl.show('Error scanning for Bluetooth low energy devices', 'long', 'middle');
   }
 
   setStatus(message) {

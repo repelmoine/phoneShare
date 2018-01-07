@@ -12,6 +12,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { BLE } from '@ionic-native/ble';
 import { Toast } from '@ionic-native/toast';
+import { NativeAudio } from '@ionic-native/native-audio';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { Toast } from '@ionic-native/toast';
     SplashScreen,
     BLE,
     Toast,
+    NativeAudio,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
